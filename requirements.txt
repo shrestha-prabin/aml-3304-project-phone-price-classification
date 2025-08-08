@@ -6,6 +6,4 @@ requests
 openai
 langchain
 langgraph
-python-dotenvaltair
-pandas
-streamlit
+python-dotenv
