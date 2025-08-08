@@ -7,10 +7,12 @@ RUN apt-get update && apt-get install -y \
     curl \
     software-properties-common \
     git \
+    openjdk-11-jre-headless \
     && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt ./
 COPY src/ ./src/
+COPY StackedEnsemble_BestOfFamily_1_AutoML_3_20250807_141418.model ./StackedEnsemble_BestOfFamily_1_AutoML_3_20250807_141418.model
 
 RUN pip3 install -r requirements.txt
 
