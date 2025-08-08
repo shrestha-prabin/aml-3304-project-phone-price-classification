@@ -1,0 +1,11 @@
+altair
+pandas
+streamlit
+h2o
+requests
+openai
+langchain
+langgraph
+python-dotenvaltair
+pandas
+streamlit
